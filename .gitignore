@@ -1,0 +1,53 @@
+# MARK: - Xcode
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# MARK: - SwiftPM
+.build/
+
+# MARK: - CocoaPods
+Pods/
+Podfile.lock
+
+# MARK: - Carthage
+Carthage/Build/
+
+# MARK: - Firebase
+GoogleService-Info.plist
+
+# MARK: - Swift Package Manager
+Packages/
+.swiftpm/
+Package.resolved
+
+# MARK: - Archives
+*.xcarchive
+
+# MARK: - User-specific settings
+*.swp
+*.orig
+*.DS_Store
+
+# MARK: - Logs
+*.log
+
+# MARK: - Environment
+.env
+
+# MARK: - Preview Assets
+*.preview-thumbnails
+
+# MARK: - Backup files
+*~.nib
+*.swm
+*.bak
+*.tmp
+
+# MARK: - App files generated locally
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
